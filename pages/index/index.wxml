@@ -1,4 +1,6 @@
-<privacy-popup bind:agree="agree" bind:disagree="disagree"></privacy-popup>
+<privacy-popup bind:agree="agree" bind:disagree="disagree">
+    
+</privacy-popup>
 
 <view>{{content}}</view>
 
