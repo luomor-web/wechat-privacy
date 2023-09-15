@@ -1,0 +1,6 @@
+<privacy-popup bind:agree="agree" bind:disagree="disagree"></privacy-popup>
+
+<view>{{content}}</view>
+
+<view style="margin-top: 50px;margin-bottom:10px;">Tips1: 请先把appid换成你自己的小程序appid</view>
+<view>Tips2: 本demo使用到了wx.getClipboardData，需要先在[mp后台-设置-基本设置-服务内容声明-用户隐私保护指引]中声明“剪切板”隐私收集</view>
